@@ -1,0 +1,17 @@
+{
+  "json.schemaDownload.enable": true,
+  "eslint.workingDirectories": ["./spacerr"],
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": false,
+    "source.fixAll.format": true
+  },
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "tailwindCSS.experimental.classRegex": [
+    ["Classes \\=([^;]*);", "'([^']*)'"],
+    ["Classes \\=([^;]*);", "\"([^\"]*)\""],
+    ["Classes \\=([^;]*);", "\\`([^\\`]*)\\`"]
+  ]
+}
