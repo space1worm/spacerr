@@ -1,4 +1,4 @@
-export const a = null;
+export const a = 123;
 
 // "use client";
 
