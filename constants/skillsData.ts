@@ -1,0 +1,27 @@
+export const skillsData = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Vue",
+    "Svelte",
+    "Next.js",
+    "Nuxt",
+    "Node.js",
+    "Express.js",
+    "Three.js",
+    "React-Three-Fiber",
+    "Git",
+    "Scss",
+    "Tailwind",
+    "MongoDB",
+    "Redux",
+    "GraphQL",
+    "Express",
+    "PostgreSQL",
+    "Framer Motion",
+    "Jest",
+    "Cypress"
+  ] as const;
+  
