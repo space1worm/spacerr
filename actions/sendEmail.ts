@@ -1,10 +1,12 @@
 "use server";
 
-import React from "react";
+import ContactFormEmail from "email/contact-form-email";
 import { Resend } from "resend";
+
+import React from "react";
+
+import { getErrorMessage } from "utils/gerErrorMessage";
 import { validateString } from "utils/validateString";
-import { getErrorMessage } from "utils/gerErrorMessage"
-import ContactFormEmail from "@/email/contact-form-email";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -36,7 +38,6 @@ export const sendEmail = async (formData: FormData) => {
         senderEmail: senderEmail,
       }),
     });
-
   } catch (error: unknown) {
     return {
       error: getErrorMessage(error),
