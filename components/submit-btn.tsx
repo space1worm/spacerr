@@ -1,4 +1,5 @@
 import React from "react";
+// eslint-disable-next-line import/named
 import { experimental_useFormStatus as useFormStatus } from "react-dom";
 import { FaPaperPlane } from "react-icons/fa";
 

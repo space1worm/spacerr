@@ -27,6 +27,7 @@
     "import/no-named-as-default": "off",
     "import/no-unresolved": "error",
     "tailwindcss/migration-from-tailwind-2": "off",
+    "tailwindcss/no-custom-classname": "off",
     "@typescript-eslint/no-unused-vars": [
       "error",
       {
