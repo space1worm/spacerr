@@ -70,7 +70,7 @@ export default function Contact() {
           required
           maxLength={5000}
         />
-        <SubmitBtn />
+        <SubmitBtn className="self-center rounded-md" />
       </form>
     </motion.section>
   );
