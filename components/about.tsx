@@ -21,7 +21,7 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3 space-y-3">
+      <div className="mb-3 space-y-3">
         <p>
           🛠️ 5 years of hands-on experience in crafting innovative software
           solutions. Proficient in a wide range of programming languages and
@@ -39,7 +39,7 @@ export default function About() {
           technology and science.
         </p>
         <p>🚀 Currently working as a Software Developer at SohoHouse</p>
-      </p>
+      </div>
     </motion.section>
   );
 }
