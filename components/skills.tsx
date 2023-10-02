@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 
 import React from "react";
 
-import { useSectionInView } from "hooks/useSectionInView";
-
 import { skillsData } from "constants/skillsData";
+
+import { useSectionInView } from "hooks/useSectionInView";
 
 import SectionHeading from "./section-heading";
 
@@ -33,7 +33,7 @@ export default function Skills() {
       ref={ref}
       className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
     >
-      <SectionHeading>My skills</SectionHeading>
+      <SectionHeading>skills</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {skillsData.map((skill, index) => (
           <motion.li
